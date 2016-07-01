@@ -26,7 +26,7 @@ namespace Library
         {
             Console.WriteLine("Magazine {0} ({1})", Title, Length);
             Console.WriteLine("Rented on: {0}", RentedDate);
-            Console.WriteLine("Due on; {0}", ReturnDueDate());
+            Console.WriteLine("Due on; {0}\n", ReturnDueDate());
             
         }
 

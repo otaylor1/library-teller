@@ -25,8 +25,8 @@ namespace Library
         public override void PrintMediaDetails()
         {
             Console.WriteLine("Book {0} ({1})", Title, Length);
-            Console.WriteLine("Rented on: {0}", RentedDate);
-            Console.WriteLine("Due on; {0}", ReturnDueDate());
+            Console.WriteLine("n Rented on: {0}", RentedDate);
+            Console.WriteLine("Due on; {0}\n", ReturnDueDate());
 
 
         }
