@@ -12,7 +12,7 @@ namespace Library
         {
             get
             {
-                return 7;
+                return 5;
             }
 
             //set method not going to do anything
@@ -23,12 +23,10 @@ namespace Library
         }
 
         public override void PrintMediaDetails()
-        {
-            Console.WriteLine("DVD {0} ({1})" , Title, Length);
+        {       
+            Console.WriteLine("DVD: {0} ({1})" , Title, Length);
             Console.WriteLine("Rented on: {0}", RentedDate);
-            Console.WriteLine("Due on; {0}\n", ReturnDueDate());
-            
-            
+            Console.WriteLine("Due on: {0}\n", ReturnDueDate());           
         }
 
         public override DateTime ReturnDueDate()

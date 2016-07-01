@@ -27,7 +27,7 @@ namespace Library
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Console.WriteLine(e.Message);
                 //write out the message of e
                     //implement
             }
